@@ -1,22 +1,18 @@
 {
-  "name": "example-site-boilerplate",
+  "name": "netlify-build-reproductions",
   "version": "0.1.0",
-  "description": "A collection of common content pieces and boilerplate design and assets for use by the Netlify DX team (or anyone, although the content will be rather Netli-centric) when creating example and demo sites.",
+  "description": "A place where reproductions are forged",
   "scripts": {
-    "start": "browser-sync start --config bs-config.js"
+    "dev": "netlify dev",
+    "build": "echo 'building...'"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/netlify/example-site-boilerplate.git"
   },
   "keywords": [],
-  "author": "Netlify DX <devex@netlify.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/netlify/example-site-boilerplate/issues"
-  },
-  "homepage": "https://github.com/netlify/example-site-boilerplate#readme",
+  "author": "Lukas Holzer <lukas.holzer@netlify.com>",
   "dependencies": {
-    "browser-sync": "^2.26.7"
+    "@netlify/functions": "^0.8.0"
   }
 }
