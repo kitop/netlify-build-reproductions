@@ -3,16 +3,22 @@
   functions = "functions"
   publish = "./dist"
 
+[dev]
+  command = "npm run watch"
 
-[[redirects]]
-  from = "/hello"
-  to = "/.netlify/functions/hello"
-  status = 200
 
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+[[plugins]]
+  package = "/plugins/hello-world"
+
+# [[redirects]]
+#   from = "/"
+#   to = "/hello"
+#   status = 200
+
+# [[redirects]]
+#   from = "/hello"
+#   to = "/.netlify/functions/hello"
+#   status = 200
 
   ## (optional) Settings for Netlify Dev
   ## https://github.com/netlify/cli/blob/main/docs/netlify-dev.md#project-detection
