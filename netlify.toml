@@ -1,11 +1,11 @@
 [build]
   command = "npm run build"
   functions = "functions"
-  publish = "./dist"
+  publish = "dist"
 
 [dev]
-  command = "npm run watch"
-
+  functions = "functions"
+  publish = "dist"
 
 [[plugins]]
   package = "/plugins/hello-world"
