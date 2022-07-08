@@ -4,7 +4,7 @@
   "description": "A place where reproductions are forged",
   "scripts": {
     "dev": "netlify dev",
-    "build": "echo 'building...'",
+    "build": "echo 'building...' && printenv",
     "debug": "node --inspect-brk /Users/lukasholzer/Sites/netlify/cli/bin/run"
   },
   "repository": {
