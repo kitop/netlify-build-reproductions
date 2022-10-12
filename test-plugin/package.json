@@ -2,6 +2,7 @@
   "name": "netlify-build-reproductions",
   "version": "0.1.0",
   "description": "A place where reproductions are forged",
+  "packageManager": "pnpm@7.0.1",
   "scripts": {
     "dev": "netlify dev",
     "build": "echo 'building...' && printenv",
